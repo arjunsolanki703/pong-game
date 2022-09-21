@@ -10,15 +10,9 @@ export default new VueRouter({
 
   routes: [
     {
-      path: '/pong',
+      path: '/',
       name: 'pong',
       component: () => import('../view/pong.vue'),
-    },
-
-    {
-      path: '/',
-      name: 'launcher',
-      component: Launcher,
-    },
+    }
   ],
 });
