@@ -1,0 +1,31 @@
+html, body {
+  background-color: black;
+  color: white;
+}
+
+img {
+  pointer-events: none;
+}
+
+.theme--dark.v-breadcrumbs__divider,
+.theme--dark.v-breadcrumbs__item--disabled {
+  color: unset !important;
+  font-weight: bold !important;
+}
+
+.theme--dark.v-card {
+  background-color: #323232;
+  overflow: hidden;
+}
+
+.theme--dark.v-card>.v-card__title,
+.theme--dark.v-card>.v-card__subtitle,
+.theme--dark.v-card>.v-card__text {
+  color: white !important;
+  word-break: break-word !important;
+}
+
+.theme--dark.v-select-list .v-list-item__subtitle,
+.theme--dark.v-select-list .v-list-item__title {
+  white-space: unset;
+}
